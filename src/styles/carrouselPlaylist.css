@@ -1,0 +1,24 @@
+.playlist-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres cards en una fila */
+    gap: 20px; /* Espacio entre las cards */
+}
+
+/* Media query para pantallas medianas */
+@media (max-width: 768px) {
+    .playlist-container {
+        grid-template-columns: repeat(2, 1fr); /* Dos cards en una fila */
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 576px) {
+    .playlist-container {
+        grid-template-columns: 1fr; /* Una card por fila */
+    }
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}

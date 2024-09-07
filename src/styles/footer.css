@@ -1,0 +1,20 @@
+
+.footer-bar {
+    z-index: 1100; 
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    background: linear-gradient(90deg, #E8D8B0 0%, #AEA9A9 103.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+.footer-info {
+  background: linear-gradient(90deg, #AEA9A9 0%, rgba(255, 255, 255, 0.60) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+

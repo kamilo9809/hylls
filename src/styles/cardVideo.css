@@ -1,0 +1,67 @@
+.titulo-video {
+    background: linear-gradient(103deg, #E4E4E4 4.73%, #E8D8B0 85.14%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.fecha-video {
+    background: linear-gradient(90deg, #AEA9A9 0%, rgba(255, 255, 255, 0.60) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+/* Agrega este código a tu archivo cardVideo.css */
+
+
+/* Agrega este código a tu archivo cardVideo.css */
+
+.card-video-container {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .cortina {
+    position: absolute;
+    bottom: -100%; /* Posición inicial fuera del contenedor */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out, bottom 0.3s ease-in-out;
+    backdrop-filter: blur(0);
+  }
+  
+  .play-btn-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, z-index 0s linear 0.3s;
+    z-index: 1; 
+  }
+  
+  .card-video-container:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card-video-container:hover .cortina {
+    opacity: 1;
+    backdrop-filter: blur(3px);
+    bottom: 0; /* Posición final, despliegue de abajo hacia arriba */
+  }
+  
+  .card-video-container:hover .play-btn-container {
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 2; /* Asegura que el botón esté encima de la cortina durante el despliegue */
+  }
+  

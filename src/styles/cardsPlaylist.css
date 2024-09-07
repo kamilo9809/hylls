@@ -1,0 +1,72 @@
+.card {
+    transition-property: all;
+    transition-duration: 200ms;
+}
+
+.card:hover {
+    scale: 1.030;
+}   
+
+.card-content {
+    opacity: 0;
+    height: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.card-content.show-stream {
+    opacity: 1;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height:20%;
+    z-index: 1000;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(10, 10, 10, 0.4));
+    backdrop-filter: blur(5px);
+    transition: height 0.7s ease, width 0.7s ease;
+    z-index: 1050; 
+    text-transform: uppercase;
+    color: #E8D8B0 ;
+    font-weight: 600;
+    cursor: pointer;
+} 
+
+.enlaces-playlist {
+    opacity: 0;
+    height: 0px;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -99;
+}
+
+
+.enlaces-playlist.show-links {
+    opacity: 1;
+    position: absolute;
+    bottom: 20%;
+    height:80%;
+    z-index: 1000;
+    overflow: hidden;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(10, 10, 10, 0.4));
+    backdrop-filter: blur(5px);
+    transition: height 0.7s ease, width 0.7s ease;
+    z-index: 1050; 
+    text-transform: uppercase;
+    color: #E8D8B0 ;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.enlaces {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+
+}

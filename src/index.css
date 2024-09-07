@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imagen {
+  background-image: url("./assets/images/loginFoto.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.diseñoletras {
+  font-style: normal;
+  line-height: 123.016%; /* 78.73px */
+  letter-spacing: 4.48px;
+  background: var(
+    --lol-wtf,
+    linear-gradient(103deg, #e4e4e4 14.73%, #e8d8b0 21.24%, #c09373 85.14%)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.imagenLogin{
+    background-image: url('./assets/images/loginFoto.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnSubmit {
+  height: 48.747px;
+  flex-shrink: 0;
+  background: var(
+    --lol-wtf,
+    linear-gradient(103deg, #e4e4e4 4.73%, #e8d8b0 21.24%, #c09373 85.14%)
+  );
+}
+
+input {
+    outline: none;
+  }
+
+body{
+  background-color:#0A0A0A;
+}
+
+.canciones {
+  display: grid;
+  grid-auto-rows: minmax(10px, auto);
+}
+
+.texto-degradado {
+  background: var(--hylls-shit, linear-gradient(103deg, #E4E4E4 4.73%, #E8D8B0 21.24%, #696969 60.12%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.texto-degradado2 {
+  background: var(--hylls-shit, linear-gradient(103deg, #E4E4E4 4.73%, #E8D8B0 21.24%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.texto-degradado3 {
+  background: var(--hylls-shit, linear-gradient(103deg, rgba(228, 228, 228, 0.8) 4.73%, rgba(235, 226, 208, 0.8) 45.24%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.texto-degradado4 {
+  background: linear-gradient(90deg, #EEE 0.21%, #898989 94.32%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.texto-degradado5 {
+  background: var(--hylls-shit, linear-gradient(103deg, #E4E4E4 4.73%, #E8D8B0 21.24%, #C09373 60.12%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.texto-degradado6 {
+  background: var(--hylls-shit, linear-gradient(103deg, #E4E4E4 4.73%,  #E8D8B0 11.24%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gradient {
+  position: relative;
+  border-bottom: 2px solid transparent; /* Establece un borde inferior transparente */
+}
+
+.border-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Mismo grosor que el borde */
+  background-image: linear-gradient(103deg, #E4E4E4 4.73%, #E8D8B0 21.24%, #C09373 60.12%); /* Degradado */
+}
+
+.border-gradient2 {
+  border-width: 2px;
+  border-style: solid;
+  border-image-source: 
+    linear-gradient(103deg, #E4E4E4 4.73%, #E8D8B0 11.24%);
+  border-image-slice: 1; /* Define el ancho de la imagen */
+}
+
+.degradado-barra {
+  background: var(--hylls-shit, linear-gradient(103deg, #E4E4E4 4.73%, #E8D8B0 21.24%, #696969 60.12%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cortinaArtista{
+  position: absolute;
+  background-color: #0a0a0a98;
+  backdrop-filter: blur(3px);
+  height: 100px;
+  width: 100%;
+  bottom: 1;
+  transition: transform 0.3s;
+  transform: translateY(0);
+}
+
+.cortinaArtista:hover{
+  transform: translatey(-120%);
+  display: flex;
+}
+
+.cardReaction:hover + .cortinaArtista {
+  transform: translateY(-120%);
+  display: flex;
+}
+
+.cardReaction{
+  cursor: pointer;
+}
+
+.cardReaction::before{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff1f;
+  background-size: 800%;
+  filter: blur(18px);
+}
+

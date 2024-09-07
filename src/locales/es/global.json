@@ -1,0 +1,112 @@
+{
+  "navbar": {
+    "Company":{
+      "Company" :"compañia",
+      "About" : "Sobre Nosotros",
+      "Contact": "Contacto",
+      "News": "Noticias"
+    },
+    "Discography": {
+      "Discography":"Discografia",
+      "Artist":"Artistas",
+      "Biografy":"BIOGRAFIA",
+      "Albums":"Álbumes",
+      "Videos":"Videos"
+    },
+    "Services":{
+      "Services": "Servicios",
+      "Production": "Producción y \ncomposición",
+      "Distribution": "Distribución",
+      "Promotion": "Promoción",
+      "Audiovisual": "Audiovisual",
+      "Legal": "Legal"
+    },
+    "Releases":{
+      "Releases":"Lanzamientos",
+      "Featured": "Destacados",
+      "News": "Novedades",
+      "Specials":"Especiales"
+    },
+    "Phrase":"Obsesión y arte."
+  },
+  "footer":{
+    "textLeft": "© 2023 HYLLS. Todos los derechos reservados",
+    "textRight":"Términos del Servicio y Políticas de Privacidad"
+  },
+  "about":{
+    "Title":"MÚSICA Y OBSESIÓN",
+    "Paragraph1PartOne":" En HYLLS, nos dedicamos a forjar experiencias musicales excepcionales.",
+    "Paragraph1PartTwo":" Somos más que un sello discográfico; somos artesanos de sonidos, expertos en llevar la visión musical de los artistas a nuevas alturas.",
+    "Paragraph1PartThree":"Nuestra pasión es la creación, nuestra fortaleza radica en la innovación y calidad.",
+    "Paragraph2PartOne":"Desde la composición hasta la producción, desde la distribución hasta la promoción,",
+    "Paragraph2PartTwo":"guiamos cada paso con un compromiso inquebrantable hacia la excelencia.",
+    "Paragraph2PartThree":"Somos la plataforma donde los sueños musicales encuentran su hogar, donde las melodías se transforman en obras maestras."
+  },
+  "contact":{
+    "Studio":"HYLLS ESTUDIO",
+    "Title":"CONTÁCTANOS",
+    "Subject": "Asunto",
+    "SubjectPlaceholder":"Por favor digita el asunto.",
+    "Name":"Nombre",
+    "NamePlaceholder":"Por favor digita tu nombre.",
+    "EmailPlaceholder":"Por favor digita tu E-mail.",
+    "Content":"Contenido",
+    "ContentPlaceholder":"Por favor digita la solicitud.",
+    "Conditions":"He leído y acepto los ",
+    "Conditions2":" Términos y Condiciones",
+    "Buttom":"Enviar"
+  },
+  "news":{
+    "Title":"Recibe lo último de HYLLS.",
+    "E-mail":"Tu correo",
+    "Subscribe":"Suscribirse"
+  },
+  "synck":{
+    "Paragraph1PartOne":" Descubre nuestra nueva plataforma aplicación web y móvil diseñada para satisfacer las necesidades de artistas y productores musicales de todos los niveles.",
+    "Paragraph1PartTwo":"Simplifica radicalmente la forma en que compartes tus creaciones musicales, proporcionando una experiencia intuitiva y atractiva. Desde amateurs hasta expertos, ",
+    "Paragraph1PartThree":"SYNCK está aquí para transformar la manera en que compartes tu música.",
+    "Buttom":"Únete",
+    "DiscoverAndJoin": "DESCUBRE Y ÚNETE A "
+  },  
+  "filter":{
+    "Placeholder":"Busca tu artista...",
+    "Placeholder2":"Busca tu álbum...",
+    "Placeholder3":"Busca tu video..."
+  },
+  "bodyServicios":{
+    "Paragraph1PartOne":"Beats personalizados que se adaptan a la singularidad de cada artista y contando con un amplio catálogo, ",
+    "Paragraph1PartTwo":"no nos limitamos a géneros; ",
+    "Paragraph1PartThree":"fusionamos lo mejor de todos para producir obras únicas, llevando a cada canción el sello distintivo de nuestras técnicas.",
+    "Buttom1":"Catálogo",
+    "Title2":"MEZCLA Y MASTERING",
+    "Paragraph2PartOne":"Nos respaldamos en tecnologías de vanguardia y un enfoque meticuloso para cada producción. ",
+    "Paragraph2PartTwo":"Desde los matices más sutiles hasta las visiones sonoras más ambiciosas, nuestra metodología emplea las mejores prácticas reconocidas internacionalmente.",
+    "Title3":"Distribución",
+    "Subtitle1":"Planificación Estratégica",
+    "Text1":"Identificación de objetivos, selección de plataformas y estrategias de lanzamiento.",
+    "Subtitle2":"Preparación de Contenido",
+    "Text2":"Preparación de material promocional, portadas, metadatos y formatos de audio.",
+    "Subtitle3":"Lanzamiento",
+    "Text3":"Establecimiento de fechas de lanzamiento, estrategias de promoción en redes sociales y campañas publicitarias.",
+    "Subtitle4":"Monitoreo y Análisis",
+    "Text4":"Seguimiento del rendimiento, análisis de métricas de reproducción, ventas y feedback de los oyentes.",
+    "Subtitle5":"Optimización Continua",
+    "Text5":"Ajustes estratégicos según el rendimiento, exploración de nuevas oportunidades y actualización constante.",
+    "AudiovisualText":"Con una combinación de técnicas innovadoras y creatividad sin límites.",
+    "AudiovisualText1":"Producción audiovisual de primer nivel para llevar tu música a nuevos horizontes.",
+    "AudiovisualText2":"Desde la conceptualización hasta la realización, nuestro equipo creativo trabaja para capturar la esencia de tu música en cada imagen.",
+    "AudiovisualIl1":"GRABACIÓN",
+    "AudiovisualIl2":"EDICIÓN",
+    "AudiovisualIl3":"PORTADAS",
+    "AudiovisualIl4":"CONTENIDO INTERACTIVO",
+    "AudiovisualIl5":"IDENTIDAD VISUAL",
+    "LegalText1":"Desde la redacción y revisión de contratos hasta la gestión de derechos de autor y licencias,",
+    "LegalText2":"nos comprometemos a salvaguardar tus intereses como artista",
+    "LegalText3":"Trabajamos para asegurar que cada acuerdo sea sólido y beneficioso para ti, permitiéndote enfocarte en tu música con la tranquilidad de que tus derechos están protegidos.",
+    "FinalText":"REGALÍAS",
+    "FinalText1":"MANEJO"
+  },
+  "playList":{
+    
+  }
+}

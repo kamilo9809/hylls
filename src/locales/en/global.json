@@ -1,0 +1,110 @@
+{
+  "navbar": {
+    "Company":{
+      "Company" :"Company",
+      "About" : "About",
+      "Contact": "Contact",
+      "News": "News"
+    },
+    "Discography": {
+      "Discography":"Discography",
+      "Artist":"Artist",
+      "Biografy":"Biography",
+      "Albums":"Albums",
+      "Videos":"Videos"
+    },
+    "Services":{
+      "Services": "Services",
+      "Production": "Production & \nComposition",
+      "Distribution": "Distribution",
+      "Promotion": "Promotion",
+      "Audiovisual": "Audiovisual",
+      "Legal": "Legal"
+    },
+    "Releases":{
+      "Releases":"Releases",
+      "Featured": "Featured",
+      "News": "News",
+      "Specials":"Specials"
+    },
+    "Phrase":"Obsession & Art."
+  },
+  "footer":{
+      "textLeft": "© 2023 HYLLS. All rights reserved",
+      "textRight":"Terms of Service and Privacy Policy"
+  }, 
+  "about":{
+      "Title":"MUSIC & OBSESSION",
+      "Paragraph1PartOne":"At HYLLS, we are dedicated to forging exceptional musical experiences.",
+      "Paragraph1PartTwo":"We are more than a record label; we are craftsmen of sound, experts in taking the musical vision of artists to new heights.",
+      "Paragraph1PartThree":"Our passion is creation, our strength lies in innovation and quality.",
+      "Paragraph2PartOne":"From composition to production, from distribution to promotion,",
+      "Paragraph2PartTwo":"we guide every step with an unwavering commitment to excellence. ",
+      "Paragraph2PartThree":"We are the platform where musical dreams find their home, where melodies are transformed into masterpieces."
+  },
+   "contact":{
+      "Studio":"HYLLS STUDIO",
+      "Title":"CONTACT US",
+      "Subject": "Subject",
+      "SubjectPlaceholder":"Please type your subject.",
+      "Name":"Name",
+      "NamePlaceholder":"Please type your name.",
+      "EmailPlaceholder":"Please type your E-mail.",
+      "Content":"Content",
+      "ContentPlaceholder":"Write your request.",
+      "Conditions":"I have read and accept the ",
+      "Conditions2":"Terms and Conditions",
+      "Buttom":"Send"
+      
+  },
+  "news":{
+    "Title":"Get the latest from HYLLS.",
+    "E-mail":"Your Email",
+    "Subscribe":"subscribe"
+  },
+  "synck":{
+    "Paragraph1PartOne":" Discover our new web and mobile application platform designed to meet the needs of artists and music producers of all levels.",
+    "Paragraph1PartTwo":"It radically simplifies the way you share your musical creations, providing an intuitive and engaging experience. From amateurs to experts, ",
+    "Paragraph1PartThree":"SYNCK is here to transform the way you share your music.",
+    "Buttom":"Join",
+    "DiscoverAndJoin": "DISCOVER AND JOIN"
+  },
+  "filter":{
+    "Placeholder":"Find your artist...",
+    "Placeholder2":"Find your album...",
+    "Placeholder3":"Find your video..."
+  },
+  "bodyServicios":{
+    "Paragraph1PartOne":"Customized beats that adapt to the uniqueness of each artist and with an extensive catalog, ",
+    "Paragraph1PartTwo":"we do not limit ourselves to genres; ",
+    "Paragraph1PartThree":"we fuse the best of all to produce unique works, bringing to each song the distinctive stamp of our techniques.",
+    "Buttom1":"Catalog",
+    "Title2":"MIXING & MASTERING",
+    "Paragraph2PartOne":"We rely on state-of-the-art technologies and a meticulous approach to each production. ",
+    "Paragraph2PartTwo":"From the subtlest nuances to the most ambitious sonic visions, our methodology employs internationally recognized best practices.",
+    "Title3":"Distribution",
+    "Subtitle1":"Strategic Planning",
+    "Text1":"Identification of objectives, selection of platforms and launching strategies.",
+    "Subtitle2":"Content Preparation",
+    "Text2":"Preparation of promotional material, covers, metadata and audio formats.",
+    "Subtitle3":"Launch",
+    "Text3":"Establishment of launch dates, social media promotion strategies and advertising campaigns.",
+    "Subtitle4":"Monitoring and Analysis",
+    "Text4":"Performance tracking, playback metrics analysis, sales and listener feedback.",
+    "Subtitle5":"Continuous Optimization",
+    "Text5":"Strategic adjustments according to performance, exploration of new opportunities and constant updating.",
+    "AudiovisualText":"With a combination of innovative techniques and unlimited creativity.",
+    "AudiovisualText1":"First class audiovisual production to take your music to new horizons..",
+    "AudiovisualText2":"From conceptualization to realization, our creative team works to capture the essence of your music in every image.",
+    "AudiovisualIl1":"RECORDING",
+    "AudiovisualIl2":"EDITION",
+    "AudiovisualIl3":"COVERS",
+    "AudiovisualIl4":"INTERACTIVE CONTENT",
+    "AudiovisualIl5":"VISUAL IDENTITY",
+    "LegalText1":"From drafting and reviewing contracts to managing copyrights and licenses,",
+    "LegalText2":"we are committed to safeguarding your interests as an artist",
+    "LegalText3":"We work to ensure that each agreement is solid and beneficial to you, allowing you to focus on your music with the peace of mind that your rights are protected.",
+    "FinalText":"GIFTS",
+    "FinalText1":"HANDLING"
+  }
+}

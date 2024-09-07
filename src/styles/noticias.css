@@ -1,0 +1,25 @@
+
+
+.boton-compartir {
+    position: relative;
+  }
+  
+.boton-compartir::before {
+    content: '';
+    position: absolute;
+    left: -1.7rem; /* Ajusta según sea necesario para la posición */
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 1.2rem;
+    height: 1.3rem;
+    background-image: url('./../assets/polygonos/share.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.boton-visitar {
+    border-bottom: 1px solid #E8D8B0;
+}
+

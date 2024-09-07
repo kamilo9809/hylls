@@ -1,0 +1,173 @@
+.playlist::before {
+    content: '';
+    box-shadow: -15px -10px 250px 70px rgba(212,207,188,0.75);
+    -webkit-box-shadow:-14px -19px 250px 70px rgba(212,207,188,0.75);
+    -moz-box-shadow: -54px -29px 357px 123px rgba(212,207,188,0.75); 
+    background-color: transparent; /* Establece el fondo como transparente */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.playlist {
+    background-color: #0A0A0A;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-image: url( '../assets/images/2023.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.playlist-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Akshar;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.016%; /* 78.73px */
+    letter-spacing: 4.48px;
+    background: linear-gradient(103deg, #E4E4E4 4.73%, #E8D8B0 57.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.border-button-title {
+    border-bottom: 1px solid #E8D8B0;
+    width: 50%;
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+}
+
+.border-button-title::after {
+    content: '';
+    background: linear-gradient(to right, #E8D8B0, #E8D8B0);
+    height: 1px; /* Ajusta la altura según sea necesario */
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    right: -100%;
+    opacity: 0.15;
+
+}
+
+
+/*estilos de novedades*/
+
+.playlist-nov {
+    background-color: #0A0A0A;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-image: url( '../assets/images/2024.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.playlist-nov::before {
+    content: '';
+    box-shadow: -15px -10px 250px 80px rgba(212,207,188,0.75);
+    -webkit-box-shadow: -14px -19px 250px 70px rgba(212,207,188,0.75);
+    -moz-box-shadow: -54px -29px 357px 123px rgba(212,207,188,0.75); 
+    background-color: transparent; /* Establece el fondo como transparente */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+
+.border-button-title-nov {
+    border-bottom: 1px solid #E8D8B0;
+    width: 50%;
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+}
+
+.border-button-title-nov::after {
+    content: '';
+    background: linear-gradient(to left, #E8D8B0, #E8D8B0);
+    height: 1px; /* Ajusta la altura según sea necesario */
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    left: -100%;
+    opacity: 0.15;
+}
+
+.slide-right {
+	-webkit-animation: slide-right 0.5s linear 0.5s ;
+	        animation: slide-right 0.5s linear 0.5s ;
+}
+.slide-left {
+	-webkit-animation: slide-left 0.5s linear 0.5s;
+	        animation: slide-left 0.5s linear 0.5s;
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-right{
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+  }
+}
+/**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }

@@ -1,0 +1,89 @@
+/* General styles */
+.admincontainer {
+    background: linear-gradient(180deg, #1C1919 20.32%, rgba(10, 10, 10) 100%);
+}
+
+.admincontainer-h2,
+.admincontainer-h3 {
+    background: linear-gradient(90deg, #E8D8B0 50%, rgba(232, 216, 176, 0.00) 128.47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boton-animado {
+    transition: transform 0.3s ease-in-out;
+}
+
+.boton-animado:hover {
+    transform: scale(1.1);
+}
+
+.ocultar {
+    display: none;
+}
+
+.borde-color {
+    box-shadow: 0 0 0 0.1px #E8D8B0;
+    /* Sombreado delgado para simular un borde */
+}
+
+.enlace {
+    text-shadow: 0 0 0 transparent;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.enlace:hover {
+    text-shadow: 0px 0px 10px rgba(232, 216, 176, 0.60);
+}
+
+.dashboard-desk {
+    display: none;
+    z-index: 100;
+}
+
+/* Media queries for screens wider than 768px */
+@media screen and (min-width: 769px) {
+    .enlaces-mobile {
+        display: none;
+    }
+
+    .dashboard-desk {
+        display: block;
+    }
+
+    .dashboard {
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .fecha-boton {
+        width: 100vw;
+        padding-right: 4rem;
+    }
+
+    .admincontainer-h3 {
+        margin-top: -10rem;
+    }
+
+    .lateral-line {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background-color: #E8D8B0;
+        /* Cambié el color a #E8D8B0 para que coincida con el tema */
+        margin-left: 14rem;
+    }
+
+    .border-inferior::after {
+        content: '';
+        background: linear-gradient(to right, #E8D8B0, #E8D8B0);
+        height: 2px;
+        width: 50%;
+        position: absolute;
+        top: 19rem;
+        right: 0px;
+        opacity: 0.15;
+    }
+}
